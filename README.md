@@ -12,7 +12,7 @@ Make 방법
         3.Make main_debug: product.o와 디버그메크로가 포함된 main 실행파일을 만듬
 
 Main 파일실행 방법
-        ./main
+        *./main
 
 메인메뉴 설명
 
