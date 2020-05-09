@@ -57,3 +57,16 @@ Main 파일실행 방법
 
         13.ApplyDiscount
         특정 시계의 이름을 입력하면 그 시계의 가격을 알려주고 할인율을 입력하면 할인율에 따라 가격이 바뀐다.
+
+## 시계 데이터 구조
+```c
+typedef struct st_watch{
+    char name[20];  // 시계 이름
+    char brname[20]; // 브랜드 이름
+    char size[20];  // 시계 사이즈
+    char gender[10];// 남성용,여성용
+    float price;  // 시계 가격
+    int stock; // 재고 수
+    int sale; //세일율
+} W_Record;
+```
