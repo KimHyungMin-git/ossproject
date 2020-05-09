@@ -4,9 +4,9 @@
 편하게 판매하는 시계들의 재고를 관리 할 수 있게 하는 프로그램이다.
 ## MAKE FILE ##
 Make 방법
-        *Make clean: object 파일과 main 실행파일 삭제
-        *Make main: product.o와 main 실행파일을 만듬
-        *Make main_debug: product.o와 디버그메크로가 포함된 main 실행파일을 만듬
+        1.Make clean: object 파일과 main 실행파일 삭제
+        2.Make main: product.o와 main 실행파일을 만듬
+        3.Make main_debug: product.o와 디버그메크로가 포함된 main 실행파일을 만듬
 
 Main 파일실행 방법
         ./main
